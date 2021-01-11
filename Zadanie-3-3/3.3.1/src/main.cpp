@@ -11,6 +11,6 @@ void setup() {
 
 void loop() {
   lcd.setCursor(0, 1); // Przesunięcie kursora do początku drugiego wiersza
-  lcd.print(millis() / 1000); / Wyświetlenie liczby sekund od uruchomienia
+  lcd.print(millis() / 1000); // Wyświetlenie liczby sekund od uruchomienia
   delay(500);
 }
